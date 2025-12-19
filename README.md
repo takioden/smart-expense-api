@@ -2,8 +2,7 @@
 
 ## 📌 Deskripsi
 **Smart Expense API** adalah RESTful API untuk mengelola keuangan pribadi, termasuk pencatatan transaksi, kategori, dan **transaksi berulang (Recurring Transaction)**.
-
-Salah satu fitur utama pada API ini adalah **sistem recurring transaction** yang dijalankan secara otomatis menggunakan **Command Pattern** dan **Laravel Scheduler**.
+Projek dibuat sebagai praktikal projek akhir pembelajaran.
 
 ---
 
@@ -20,10 +19,12 @@ Salah satu fitur utama pada API ini adalah **sistem recurring transaction** yang
 ## 🧩 Arsitektur & Design Pattern
 
 ### Pola yang Digunakan
-- **Command Pattern** → menjalankan proses generate recurring
-- **Service Layer** → logika bisnis
-- **Repository Pattern** → akses data
-- **Adapter Pattern** → transform data recurring ke transaksi
+- **Singleton Pattern**
+- **Factory Method Pattern**
+- **Facade Pattern**
+- **Adapter Pattern**
+- **Strategy Pattern**
+- **Command Pattern** 
 - **MVC (Laravel)**
 
 ---
